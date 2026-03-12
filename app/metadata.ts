@@ -40,4 +40,12 @@ export const defaultMetadata: Metadata = {
     follow: true,
   },
   metadataBase: new URL(siteUrl),
+  icons: {
+    icon: [
+      { url: '/favicon-az.png', type: 'image/png', sizes: '32x32' },
+      { url: '/favicon-az.png', type: 'image/png', sizes: '64x64' },
+    ],
+    shortcut: ['/favicon-az.png'],
+    apple: ['/favicon-az.png'],
+  },
 }

@@ -12,16 +12,16 @@ export function Hero() {
     <AnimatedSection id="hero" className="py-16 md:py-24">
       <div className="flex flex-col items-center gap-8 text-center md:flex-row md:items-start md:text-left">
         <div className="flex-1">
-          <h1 className="text-4xl font-bold tracking-tight text-slate-900 dark:text-white sm:text-5xl lg:text-6xl">
+          <h1 className="text-3xl font-bold tracking-tight text-slate-900 dark:text-white sm:text-4xl lg:text-5xl xl:text-6xl sm:whitespace-nowrap">
             {t('hero.greeting')}{' '}
             <span className="text-primary-600 dark:text-primary-400">
               {t('hero.name')}
             </span>
           </h1>
-          <p className="mt-4 text-xl text-slate-600 dark:text-slate-300">
+          <p className="mt-4 text-xl text-black dark:text-slate-300">
             {t('hero.subtitle')}
           </p>
-          <p className="mt-3 max-w-2xl whitespace-pre-line text-slate-600 dark:text-slate-400">
+          <p className="mt-3 max-w-2xl whitespace-pre-line text-black dark:text-slate-400">
             {t('hero.about')}
           </p>
           <div className="mt-6 flex flex-wrap gap-2">

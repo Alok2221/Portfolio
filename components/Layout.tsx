@@ -9,9 +9,7 @@ export function Layout({ children }: { children: React.ReactNode }) {
       <ProgressBar />
       <Header />
       <main className="min-h-screen">
-        <div className="mx-auto max-w-6xl px-4 py-8 sm:px-6 lg:py-12">
-          {children}
-        </div>
+        <div className="mx-auto max-w-6xl px-4 py-12 sm:px-6 lg:py-16">{children}</div>
       </main>
       <Footer />
       <ScrollToTop />

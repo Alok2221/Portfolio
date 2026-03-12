@@ -13,27 +13,13 @@ const translations = {
             greeting: "Hi, I'm",
             name: 'Aleksander Zadubiec',
             subtitle: 'Full-stack & Java Developer',
-            about: `I'm Aleksander, I am a developer with a very strong command of Java (11/17/21) – I'm comfortable with both object-oriented and functional programming (streams, lambdas, Optional), and I have hands-on experience with multithreading, design patterns, and code refactoring following clean code principles. In my daily work, I use the Spring ecosystem (Boot, Data JPA, Security), along with Hibernate, Lombok, and I write unit tests using JUnit and Mockito.
-My frontend skills are equally solid – I have an advanced knowledge of Angular, working confidently with modules, components, services, directives, routing, guards, and lazy loading. I'm highly proficient in TypeScript (generics, interfaces, enums, decorators), and my JavaScript (ES6+) knowledge (async/await, promises, fetch API) allows me to seamlessly integrate backend and frontend layers.
-When it comes to databases, I'm very confident – my SQL skills are advanced: complex joins, CTEs, window functions, indexing, query optimization, stored procedures, and transactions are part of my daily toolkit. I primarily work with PostgreSQL, but I also have experience with H2 and MySQL.
-Additionally, my tech stack includes:
-  - Python (intermediate) – used for automation scripts, data processing (pandas, numpy, matplotlib), and integrating with AI models
-  - Scala (intermediate) – I appreciate its functional programming approach, immutable collections, and pattern matching, which broaden my architectural thinking
-  - C# (.NET) – intermediate, mainly console applications, but familiarity with syntax and OOP paradigms helps me switch between ecosystems easily
-  - C++ – basics, enough to understand low-level mechanisms
-I'm open to learning new technologies and eagerly take on challenges beyond my current specialization. I don't shy away from problems that require analysis and independent research – I see them as growth opportunities. When debugging and optimizing code, I use tools like IntelliJ Debugger, Postman for API testing, and pgAdmin for query analysis. I continuously develop my skills, aiming to become a versatile developer who can effectively solve technical problems across different areas.
-
-I learn quickly – I can master a new tool or framework in a short time and implement it in a project. For example, during a recent project, I independently explored JWT Authentication, WebClient for external API communication, and Docker for containerization. I'm responsible, meet deadlines, and never leave tasks unfinished. I care about code quality – I follow SOLID and DRY principles, and I write unit tests because I know that code quality directly impacts system stability and maintainability.
-
-I have patience for explaining things, supporting others, and resolving conflicts – my team members appreciated this during group projects, where I often acted as a code integrator and helped resolve Git conflicts. I can work both independently and in a team. Under time pressure, I stay calm, prioritize tasks effectively, and maintain focus. Additionally, I have a good sense of humor, which helps me build a positive team atmosphere and diffuse tension in difficult moments.
-
-In my professional experience so far, I've regularly participated in daily standups, retrospectives, and sprint planning, which has given me a solid understanding of how teamwork functions and why good communication is essential.
-
-My goal is to continue growing as a full-stack developer, expanding into artificial intelligence, and combining programming with my passion for graphics and animation. I want to build modern, intelligent, and visually appealing applications that genuinely make people's lives easier and solve real business problems.`,
-viewProjects: 'View projects',
-      downloadCvEn: 'CV (EN)',
-      downloadCvPl: 'CV (PL)',
-      profileAlt: 'Profile photo',
+            about: `I'm Aleksander, a Java-focused full‑stack developer with commercial experience in building backend services and modern web apps. On the backend I work mainly with Java 17, Spring Boot (REST, Data JPA, Security), Hibernate and PostgreSQL; on the frontend I use Angular and TypeScript, keeping a clean, strongly typed codebase.
+I'm comfortable with both object-oriented and functional programming in Java (streams, lambdas, Optional) and I care about clean architecture, refactoring and readable code. I write unit and integration tests (JUnit, Mockito), pay attention to error handling and performance, and I’m used to working with Git in a team setting (code review, branches, pull requests).
+I’m currently finishing my 3rd year of Computer Science at the John Paul II Catholic University in Lublin (KUL), where I combine academic knowledge with practical project work and long-term personal projects.`,
+            viewProjects: 'View projects',
+            downloadCvEn: 'CV (EN)',
+            downloadCvPl: 'CV (PL)',
+            profileAlt: 'Profile photo',
         },
         projects: {
             title: 'Projects',
@@ -49,8 +35,8 @@ viewProjects: 'View projects',
                     'Multimedia player combining JavaFX and Swing: JavaFX for video playback and audio visualization, Swing for playlist and UI. Demonstrates safe JavaFX-in-Swing integration. Backend: Java, JavaFX Media API, Swing, multithreading, playlist management (load, save, queue). Hybrid UI: JavaFX (video area, visualizations) + Swing (playlist, progress bar, buttons). Supports common audio/video formats, file system integration, MP3 tagging (ID3), subtitles. Features: video & audio playback, create and manage playlists, audio visualizations (FFT, charts), progress slider, volume, fullscreen.',
                 updog:
                     'Social platform inspired by Reddit: space for sharing content, interaction and topic-based communities. Backend: Java 17, Spring Boot, Spring Data JPA, Spring Security, PostgreSQL, Redis (caching), Docker. Frontend: Angular 17, TypeScript, RxJS, NgRx, Angular Material. REST API with JWT, pagination, sorting, filtering, rate limiting. Features: create communities, posts, comments, upvote/downvote, user reputation, content moderation, real-time notifications (WebSocket), search.',
-                tictactoe:
-                    'Desktop game with Minimax AI, two game modes, score tracking and theme toggle. Built with pure Java Swing.',
+                restoflow:
+                    'Online restaurant management system for small and medium venues. Backend: Java 17, Spring Boot 3.3, Spring Data JPA, Hibernate, H2/PostgreSQL; REST API designed around clear aggregates and DTOs. Frontend layer built with Bootstrap 5, HTML5/CSS3 and modern JavaScript (ES6+). Features: menu management with categories and availability, order handling (delivery / pickup), table reservations with conflict checking, special events calendar, simple reporting for daily sales and reservations, and an integrated admin panel for managing users and configuration.',
             },
         },
         skills: {
@@ -118,6 +104,7 @@ viewProjects: 'View projects',
         },
         experience: {
             title: 'Work experience',
+            subtitle: 'Selected roles that shaped my approach to clean, reliable software.',
             company: {
                 mikrobit: 'MIKROBIT Sp. z o.o.',
                 jellytech: 'JELLYTECH',
@@ -139,16 +126,24 @@ viewProjects: 'View projects',
                 rankomat_bullets: 'Implementing new backend features\nError handling\nBackend and frontend tasks\nAdding unit tests',
             },
         },
+        education: {
+            title: 'Education',
+            schoolKUL: 'John Paul II Catholic University of Lublin (KUL)',
+            degreeKUL: 'B.Sc. Computer Science (3rd year, in progress)',
+            periodKUL: '2023 - now',
+            detailsKUL:
+                'Focus on software engineering, algorithms and data structures, databases and web development; combining studies with commercial and personal projects.',
+        },
         contact: {
             title: 'Contact',
             intro: 'Have a question or want to work together? Get in touch.',
             socialMedia: 'Social media',
-email: 'Email',
-      downloadCv: 'Download CV',
-      downloadCvEn: 'CV (EN)',
-      downloadCvPl: 'CV (PL)',
-    },
-    form: {
+            email: 'Email',
+            downloadCv: 'Download CV',
+            downloadCvEn: 'CV (EN)',
+            downloadCvPl: 'CV (PL)',
+        },
+        form: {
             name: 'Name',
             email: 'Email',
             message: 'Message',
@@ -185,23 +180,13 @@ email: 'Email',
             greeting: 'Cześć, jestem',
             name: 'Aleksander Zadubiec',
             subtitle: 'Full-stack & Java Developer',
-            about: `Jestem Aleksander, jestem programistą z bardzo dobrą znajomością Java (11/17/21) - swobodnie poruszam się w programowaniu obiektowym i funkcyjnym (streamy, lambdy, Optional), mam doświadczenie w wielowątkowości, stosowaniu wzorców projektowych oraz refaktoryzacji kodu zgodnie z zasadami clean code. Na co dzień pracuję z ekosystemem Spring (Boot, Data JPA, Security), a w projektach wykorzystuję Hibernate, Lombok i testuję kod przy pomocy JUnit z Mockito.
-Równie mocną stroną jest mój frontend - Angular znam na poziomie zaawansowanym, swobodnie operując modułami, komponentami, serwisami, dyrektywami, routingiem, guardami i lazy loadingiem. W TypeScript czuję się bardzo dobrze - typowanie generyczne, interfejsy, enums, dekoratory nie stanowią dla mnie wyzwania. JavaScript (ES6+) uzupełnia ten zestaw o async/await, promisy i fetch API, co pozwala mi swobodnie łączyć warstwę backendową z frontendową.
-W obszarze baz danych czuję się pewnie - SQL znam zaawansowanie: złożone joiny, CTE, funkcje okienne, indeksy, optymalizacja zapytań, procedury składowane i transakcje to dla mnie codzienność. W projektach korzystam głównie z PostgreSQL, ale mam też doświadczenie z H2 i MySQL.
-Dodatkowo, w moim warsztacie znajdują się:
-  - Python (średniozaawansowany) - wykorzystuję go do skryptów automatyzujących, pracy z danymi (pandas, numpy, matplotlib) oraz integracji z modelami AI
-  - Scala (średniozaawansowana) - cenię ją za programowanie funkcyjne, immutable collections i pattern matching, co poszerza moje myślenie o architekturze aplikacji
-  - C# (.NET) - średniozaawansowany, głównie aplikacje konsolowe, ale znajomość składni i paradygmatów obiektowych ułatwia mi przełączanie się między ekosystemami
-  - C++ - podstawy, ale wystarczające do zrozumienia niskopoziomowych mechanizmów
-Jestem osobą otwartą na naukę nowych technologii i chętnie podejmuję się wyzwań wykraczających poza moją dotychczasową specjalizację. Nie boję się problemów wymagających analizy i samodzielnego poszukiwania rozwiązań - traktuję je jako okazję do rozwoju. Przy debugowaniu i optymalizacji kodu korzystam z IntelliJ Debugger, Postmana do testowania API oraz pgAdmin do analizy zapytań. Stale rozwijam swoje umiejętności, dążąc do tego, by stać się wszechstronnym programistą, który skutecznie rozwiązuje problemy techniczne w wielu obszarach.
-Szybko się uczę - potrafię w krótkim czasie opanować nowe narzędzie czy framework i wdrożyć go w projekcie. Przykładowo, podczas pracy nad projektem samodzielnie zgłębiłem JWT Authentication, WebClient do komunikacji z zewnętrznymi API oraz Docker do konteneryzacji aplikacji. Jestem odpowiedzialny, dotrzymuję terminów i nie zostawiam niedokończonych zadań. Dbam o czystość kodu - stosuję zasady SOLID, DRY, a także piszę testy jednostkowe, bo wiem, że jakość kodu przekłada się na stabilność i łatwość utrzymania systemu.
-Mam cierpliwość do tłumaczenia, wspierania innych i rozwiązywania konfliktów - doceniali to członkowie moich zespołów podczas projektów grupowych, gdzie często pełniłem rolę integratora kodu i pomagałem w rozwiązywaniu konfliktów w Git. Potrafię pracować zarówno samodzielnie, jak i w zespole. W sytuacjach pod presją czasu zachowuję spokój, potrafię priorytetyzować zadania i nie tracę koncentracji. Dodatkowo mam poczucie humoru, co pomaga mi budować dobrą atmosferę w zespole i rozładowywać napięcie w trudnych momentach.
-W moim dotychczasowym doświadczeniu zawodowym regularnie uczestniczyłem w daily standupach, retrospektywach i planowaniu sprintów, dzięki czemu dobrze rozumiem, jak działa praca w zespole i jak ważna jest dobra komunikacja.
-Moim celem jest dalszy rozwój w kierunku pełnego stacka z rozszerzeniem o sztuczną inteligencję oraz łączenie programowania z pasją do grafiki i animacji. Chcę tworzyć nowoczesne, inteligentne i wizualnie atrakcyjne aplikacje, które faktycznie ułatwiają ludziom życie i rozwiązują realne problemy biznesowe.`,
-viewProjects: 'Zobacz projekty',
-      downloadCvEn: 'CV (EN)',
-      downloadCvPl: 'CV (PL)',
-      profileAlt: 'Zdjęcie profilowe',
+            about: `Jestem Aleksander, programista ukierunkowany na Javę i backend, ale swobodnie poruszam się też w nowoczesnym frontendzie. Na backendzie pracuję głównie z Java 17, Spring Boot (REST, Data JPA, Security), Hibernate i PostgreSQL, a od strony frontu korzystam z Angulara i TypeScriptu, dbając o czytelną, typowaną architekturę.
+W Javie swobodnie łączę podejście obiektowe i funkcyjne (streamy, lambdy, Optional), zależy mi na czystej architekturze, refaktoryzacji i czytelnym kodzie. Piszę testy jednostkowe i integracyjne (JUnit, Mockito), dbam o obsługę błędów i wydajność, a w pracy zespołowej naturalnie korzystam z Gita (branche, pull requesty, code review).
+Obecnie kończę 3 rok Informatyki na Katolickim Uniwersytecie Lubelskim (KUL), gdzie łączę wiedzę akademicką z praktycznymi projektami i własnymi, długoterminowymi inicjatywami programistycznymi.`,
+            viewProjects: 'Zobacz projekty',
+            downloadCvEn: 'CV (EN)',
+            downloadCvPl: 'CV (PL)',
+            profileAlt: 'Zdjęcie profilowe',
         },
         projects: {
             title: 'Projekty',
@@ -217,8 +202,8 @@ viewProjects: 'Zobacz projekty',
                     'Odtwarzacz łączący JavaFX i Swing: JavaFX do wideo i wizualizacji audio, Swing do playlisty i UI. Backend: Java, JavaFX Media API, Swing, wielowątkowość, zarządzanie playlistą. Interfejs hybrydowy: JavaFX (obszar wideo, wizualizacje) + Swing (playlista, pasek postępu, przyciski). Obsługa formatów audio/wideo, integracja z systemem plików, tagowanie MP3 (ID3), napisy. Funkcje: odtwarzanie wideo i audio, playlisty, wizualizacje audio (FFT), suwak postępu, głośność, pełny ekran.',
                 updog:
                     'Platforma społecznościowa inspirowana Redditem. Backend: Java 17, Spring Boot, Spring Data JPA, Spring Security, PostgreSQL, Redis, Docker. Frontend: Angular 17, TypeScript, RxJS, NgRx, Angular Material. REST API z JWT, paginacja, sortowanie, filtrowanie, rate limiting. Funkcje: tworzenie społeczności, posty, komentarze, głosowanie (upvote/downvote), reputacja, moderacja, powiadomienia w czasie rzeczywistym (WebSocket), wyszukiwarka.',
-                tictactoe:
-                    'Gra desktopowa z Minimax AI, tryb dwóch graczy, śledzenie wyników, tryb ciemny/jasny. Zaimplemntowany w czystym Java Swing\'u.',
+                restoflow:
+                    'System online do zarządzania restauracją skierowany do małych i średnich lokali. Backend: Java 17, Spring Boot 3.3, Spring Data JPA, Hibernate, baza H2/PostgreSQL; REST API oparte na czytelnych encjach i DTO. Warstwa frontowa: Bootstrap 5, HTML5/CSS3 oraz nowoczesny JavaScript (ES6+). Funkcje: zarządzanie menu (kategorie, dostępność), obsługa zamówień (dostawa / odbiór), rezerwacje stolików z kontrolą kolizji, kalendarz wydarzeń specjalnych, proste raporty dzienne oraz panel administratora do zarządzania użytkownikami i konfiguracją systemu.',
             },
         },
         skills: {
@@ -292,6 +277,7 @@ viewProjects: 'Zobacz projekty',
         },
         experience: {
             title: 'Doświadczenie zawodowe',
+            subtitle: 'Wybrane role, które ukształtowały moje podejście do czystego i niezawodnego oprogramowania.',
             company: {
                 mikrobit: 'MIKROBIT Sp. z o.o.',
                 jellytech: 'JELLYTECH',
@@ -313,17 +299,25 @@ viewProjects: 'Zobacz projekty',
                 rankomat_bullets: 'Implementacja nowych funkcjonalności w systemie backend\nObsługa błędów\nImplementacja zadań zarówno backendu, jak i frontendu\nDodawanie testów jednostkowych',
             },
         },
+        education: {
+            title: 'Wykształcenie',
+            schoolKUL: 'Katolicki Uniwersytet Lubelski Jana Pawła II (KUL)',
+            degreeKUL: 'Informatyka, studia I stopnia (3 rok, w trakcie)',
+            periodKUL: '2023 - obecnie',
+            detailsKUL:
+                'Specjalizacja w inżynierii oprogramowania, algorytmach i strukturach danych, bazach danych oraz aplikacjach webowych; łączenie studiów z komercyjnymi i własnymi projektami.',
+        },
         contact: {
             title: 'Kontakt',
             intro: 'Masz pytanie lub chcesz nawiązać współpracę? Napisz do mnie.',
             socialMedia: 'Social media',
-email: 'Email',
-      downloadCv: 'Pobierz CV',
-      downloadCvEn: 'CV (EN)',
-      downloadCvPl: 'CV (PL)',
-    },
-    form: {
-      name: 'Imię',
+            email: 'Email',
+            downloadCv: 'Pobierz CV',
+            downloadCvEn: 'CV (EN)',
+            downloadCvPl: 'CV (PL)',
+        },
+        form: {
+            name: 'Imię',
             email: 'Email',
             message: 'Wiadomość',
             namePlaceholder: 'Jan Kowalski',

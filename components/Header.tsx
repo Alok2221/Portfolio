@@ -19,7 +19,7 @@ export function Header() {
   const { t } = useLanguage()
 
   return (
-    <header className="sticky top-0 z-50 w-full border-b border-slate-200 bg-white/80 backdrop-blur dark:border-slate-800 dark:bg-slate-900/80">
+    <header className="sticky top-0 z-50 w-full bg-transparent backdrop-blur">
       <nav className="mx-auto flex max-w-6xl items-center justify-between px-4 py-3 sm:px-6">
         <Link
           href="/"
@@ -79,7 +79,7 @@ export function Header() {
       </nav>
 
       {open && (
-        <div className="border-t border-slate-200 bg-white dark:border-slate-800 dark:bg-slate-900 md:hidden">
+        <div className="bg-black/10 backdrop-blur dark:bg-black/30 md:hidden">
           <ul className="flex flex-col gap-1 px-4 py-3">
             {navHrefs.map(({ href, key }) => (
               <li key={href}>
